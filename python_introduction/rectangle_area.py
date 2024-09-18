@@ -1,6 +1,9 @@
-lenth =10
-width =5
+def calculate_are(lenth,width):
+    area = sum([lenth] * width)
+    return area
 
-area = lenth * width
 
-print("The area of the rectangle is",area)
+lenth = 10
+width = 5
+
+print("The area of the rectangle is:", calculate_are(lenth,width))
