@@ -23,13 +23,16 @@ def main():
 
     if unit == 'F':
         celsius = convert_to_celsius(temperature)
-        print(f"{temperature}0F is {celsius}0C")
+        print(f"{temperature}0F is {celsius:.2f}0C")
     elif unit == 'C':
         fahrenheit = convert_to_fahrenheit(temperature)
-        print(f"{temperature}0C is {fahrenheit}0F")
+        print(f"{temperature}0C is {fahrenheit:.2f}0F")
     else:
         print("Invalid unit. Please enter 'C' for celsius or 'F' for Fahrenheit.")
 
 
 if __name__ == "__name__":
     main()
+
+
+main()
