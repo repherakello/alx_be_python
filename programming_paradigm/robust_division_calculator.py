@@ -11,4 +11,4 @@ def safe_divide(numerator, denominator):
         return f"The result of the division is {result}"
     
     except ZeroDivisionError:
-        return "Error: Please enter numeric values only."
+        print("Error: Cannot divide by zero")
